@@ -1,0 +1,42 @@
+html , body{
+    height: 100%;
+    width: 100%;
+    background-color:  #111;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.elem{
+    width: 100%;
+    height: 22vh;
+    border-bottom: solid 2px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elem h1 {
+    margin: 0;
+    font-size: 8vh;
+    z-index: 9;
+    mix-blend-mode: difference;
+}
+
+.elem img{
+    opacity: 0;
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 1px solid;
+    position: absolute;
+}
